@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Silver Tech | Ultra Pro Cyber Panel</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PARTICLES -->
+<div id="particles"></div>
+
+<!-- CYBER GRID -->
+<div class="cyber-grid"></div>
+
+<div class="container">
+
+    <!-- HEADER -->
+    <div class="hero-card">
+
+        <div class="danger-left">
+            <i class="fas fa-shield-halved"></i>
+            SYSTEM ONLINE
+        </div>
+
+        <div class="danger-right">
+            <i class="fas fa-bolt"></i>
+            ULTRA PRO VERSION
+        </div>
+
+        <h1>
+            <span class="silver">SILVER</span>
+            <span class="tech">TECH</span>
+        </h1>
+
+        <h2>CYBER CONTROL PANEL</h2>
+
+        <p class="tagline">
+            ELITE AUTOMATION • SECURE TECHNOLOGY • PREMIUM SYSTEM
+        </p>
+
+        <div class="creator">
+            <i class="fas fa-crown"></i>
+            OFFICIAL SILVER TECH SYSTEM
+        </div>
+
+    </div>
+
+    <!-- SERVER PANEL -->
+    <div class="server-panel">
+
+        <div class="panel-title">
+            <i class="fas fa-server"></i>
+            MD BOT SERVER
+        </div>
+
+        <div class="stats-grid">
+
+            <div class="stat-box">
+                <i class="fas fa-heart-pulse"></i>
+                <h3>STATUS</h3>
+                <span>ACTIVE</span>
+            </div>
+
+            <div class="stat-box">
+                <i class="fas fa-clock"></i>
+                <h3>UPTIME</h3>
+                <span>100%</span>
+            </div>
+
+            <div class="stat-box">
+                <i class="fas fa-lock"></i>
+                <h3>SECURITY</h3>
+                <span>ENCRYPTED</span>
+            </div>
+
+            <div class="stat-box">
+                <i class="fas fa-crown"></i>
+                <h3>ACCESS</h3>
+                <span>PREMIUM</span>
+            </div>
+
+        </div>
+
+        <!-- CORE -->
+        <div class="core-box">
+
+            <div class="core-circle">
+                <i class="fas fa-robot"></i>
+            </div>
+
+            <div class="core-text">
+                MD BOT ENGINE
+            </div>
+
+        </div>
+
+        <!-- BUTTON -->
+        <button class="launch-btn" id="launchBtn">
+            <i class="fas fa-rocket"></i>
+            LAUNCH MD BOT
+        </button>
+
+        <div class="endpoint">
+            <i class="fas fa-globe"></i>
+            ENDPOINT :
+            <span>YOUR-SERVER-LINK</span>
+        </div>
+
+    </div>
+
+    <!-- COMMUNITY -->
+    <div class="section">
+
+        <div class="section-title">
+            UNDERGROUND COMMUNITY
+        </div>
+
+        <div class="community-grid">
+
+            <div class="community-card"
+                data-url="https://chat.whatsapp.com/">
+
+                <i class="fab fa-whatsapp"></i>
+
+                <h3>WHATSAPP GROUP</h3>
+
+                <p>Community Chat</p>
+
+                <span>JOIN NOW</span>
+
+            </div>
+
+            <div class="community-card"
+                data-url="https://youtube.com/">
+
+                <i class="fab fa-youtube"></i>
+
+                <h3>YOUTUBE CHANNEL</h3>
+
+                <p>Tutorials & Updates</p>
+
+                <span>SUBSCRIBE</span>
+
+            </div>
+
+            <div class="community-card"
+                data-url="https://t.me/">
+
+                <i class="fab fa-telegram"></i>
+
+                <h3>TELEGRAM GROUP</h3>
+
+                <p>Live Community</p>
+
+                <span>JOIN NOW</span>
+
+            </div>
+
+            <div class="community-card"
+                data-url="https://t.me/">
+
+                <i class="fab fa-telegram-plane"></i>
+
+                <h3>TELEGRAM CHANNEL</h3>
+
+                <p>Latest Updates</p>
+
+                <span>VIEW NOW</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CONTACT -->
+    <div class="contact-panel">
+
+        <div class="section-title">
+            DIRECT CONTACT
+        </div>
+
+        <div class="contact-card">
+
+            <div class="contact-left">
+
+                <i class="fab fa-telegram"></i>
+
+                <div>
+                    <h3>Telegram Direct</h3>
+                    <p>@SilverTechOfficial</p>
+                </div>
+
+            </div>
+
+            <button class="contact-btn">
+                MESSAGE NOW
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- STATUS BAR -->
+    <div class="status-bar">
+
+        <span>
+            <i class="fas fa-server"></i>
+            SERVER : MD BOT
+        </span>
+
+        <span>
+            <i class="fas fa-circle online"></i>
+            STATUS : ONLINE
+        </span>
+
+        <span>
+            <i class="fas fa-crown"></i>
+            ACCESS : PREMIUM
+        </span>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-top">
+
+            SILVER TECH CYBER SYSTEM
+
+        </div>
+
+        <div class="footer-bottom">
+
+            © 2026 ALL RIGHTS RESERVED
+
+        </div>
+
+        <button id="logoutBtn" class="logout-btn">
+
+            <i class="fas fa-power-off"></i>
+
+            LOGOUT
+
+        </button>
+
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
